@@ -176,7 +176,7 @@ button:hover {
 
     @media screen and (max-width:500px) {
         .conatiner {
-            margin: 4px;
+            margin: 10px;
             padding: 10px;
         }
     }
