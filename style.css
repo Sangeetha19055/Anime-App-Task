@@ -5,15 +5,27 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+section{
+    background-color: #939797;
+    background-image: url("https://static.zerochan.net/Kochou.Shinobu.full.2879484.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 300px;
+    margin: 0px 0px;
+    position: relative;
+    padding: 30px 0px 0px 0px;
+    background-blend-mode: color-burn;
+}
 /* navbar  style*/
 nav {
-    background: rgb(0, 153, 153);
+    /* background: rgb(0, 153, 153); */
+    background: rgb(96 86 168);
     width: 100%;
     height: 70px;
     padding: 0px 20px;
 }
-
 /* navbar title style */
 nav .title {
     line-height: 70px;
@@ -21,14 +33,14 @@ nav .title {
     font-size: 50px;
     font-family: 'Tangerine', cursive;
 }
-
 /* conatiner style */
 .conatiner {
     position: relative;
     max-width: 1200px;
     margin: 60px auto;
     padding: 30px;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #ffffff40;
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 2px rgba(45, 46, 46, 0.638);
@@ -43,12 +55,13 @@ nav .title {
     color: rgba(13, 131, 115, 0.992);
     border: 2px solid #1111;
     border-radius: 10px;
+    background: #ffffffdb;
 }
-
 /* conatiner form input hover style */
 .conatiner form input:hover {
     box-shadow: 0px 0px 10px 2px rgba(25, 180, 159, 0.638);
 }
+
 
 /* image-container style */
 .image-conatiner {
@@ -58,6 +71,9 @@ nav .title {
     gap: 30px;
     padding: 10px;
     margin-top: 60px;
+
+
+
 }
 /* image-container image style */
 .image-conatiner .image {
@@ -68,6 +84,8 @@ nav .title {
     position: relative;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+
+
 }
 /* image-container image  img style */
 .image-conatiner .image img {
@@ -81,6 +99,7 @@ nav .title {
 .image-conatiner .image:hover img {
     transform: scale(1.1);
 }
+
 /* card  style starts here */
 .card {
     background-color: rgb(254, 254, 254);
@@ -89,7 +108,7 @@ nav .title {
     box-shadow: 0 5px 15px rgb(0 0 0 / 65%);
 }
 .card .content h2 {
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(121, 119, 119);
 }
 .card .content {
@@ -110,11 +129,13 @@ button {
     padding: 10px 30px;
     border: none;
     font-size: 20px;
-    background: #009999;
+    /* background: #009999; */
+    background: #3e19adf2;
     color: #fff;
     cursor: pointer;
     border-radius: 5px;
     margin-left: 20px;
+    transition: 0.8s;
 }
 button:hover{
     background-color: #08a9a9d7;
@@ -122,7 +143,8 @@ button:hover{
     color: black; 
 }
 .fas{
-    color: rgb(217, 187, 13);
+    color: #d8d227;
+    font-size: 20px;
 }
 /*  media  style*/
 @media screen and (max-width:1200px) {
@@ -130,9 +152,11 @@ button:hover{
         margin: 30px;
     }
 }
+
 @media screen and (max-width:844px) {
     .conatiner form input {
         width: 100%;
+
     }
 
     button {
