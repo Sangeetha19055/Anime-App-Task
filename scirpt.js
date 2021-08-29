@@ -1,7 +1,7 @@
 const apiurl = "https://api.jikan.moe/v3";
 
 
-/------------------------  Topnav anf from function  ----------------------
+//------------------------  Topnav anf from function  ----------------------
 function Topnav_And_Form() {
     //navbar 
     const nav = document.createElement("nav");
