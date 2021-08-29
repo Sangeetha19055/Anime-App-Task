@@ -116,6 +116,11 @@ button {
     border-radius: 5px;
     margin-left: 20px;
 }
+button:hover{
+    background-color: #08a9a9d7;
+    border: 1px solid #009999;
+    color: black; 
+}
 .fas{
     color: rgb(217, 187, 13);
 }
