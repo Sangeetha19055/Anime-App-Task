@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background: aliceblue;
+}
 
 section {
     background-color: #939797;
@@ -118,7 +121,7 @@ nav .title {
 
 .card .content h2 {
     font-size: 17px;
-    color: rgb(121, 119, 119);
+    color: rgb(201 17 22);
 }
 
 .card .content {
@@ -131,9 +134,8 @@ nav .title {
 }
 
 .card .content p strong {
-    color: #761ea7f7;
+    color: #363c83;
 }
-
 /* card  style Ends here */
 
 /* button styles */
@@ -141,6 +143,7 @@ button {
     padding: 10px 30px;
     border: none;
     font-size: 20px;
+    /* background: #009999; */
     background: #3e19adf2;
     color: #fff;
     cursor: pointer;
@@ -156,8 +159,8 @@ button:hover {
 }
 
 .fas {
-    color: #d8d227;
-    font-size: 20px;
+    color: #f1dc2a;
+    font-size: 18px;
 }
 
 /*  media  style*/
