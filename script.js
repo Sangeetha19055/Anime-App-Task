@@ -4,10 +4,19 @@ const apiurl = "https://api.jikan.moe/v3";
 function Topnav_And_Form() {
     //navbar 
     const nav = document.createElement("nav");
+    const img = document.createElement("img");
+    img.setAttribute("src","https://aux.iconspalace.com/uploads/117428211619219278.png");
+    img.style.position="absolute";
+    img.style.top="5px";
+    img.style.width="50px";
+    img.style.height="50px"
+    
+
     const h1 = document.createElement("h1");
     h1.textContent = "Anime App";
     h1.setAttribute("class", "title");
-    nav.append(h1);
+    nav.append(img,h1);
+
     const section = document.createElement("section");
 
     const formdiv = document.createElement("div");
