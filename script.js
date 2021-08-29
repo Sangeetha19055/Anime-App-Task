@@ -3,13 +3,12 @@ const apiurl = "https://api.jikan.moe/v3";
 //------------------------  Topnav anf from function  ----------------------
 function Topnav_And_Form() {
     //navbar 
+     //navbar 
     const nav = document.createElement("nav");
     const img = document.createElement("img");
     img.setAttribute("src","images/anime.png");
-    img.style.position="absolute";
-    img.style.top="-28px";
-    img.style.width="130px";
-    img.style.height="130px"
+    img.setAttribute("class","logo");
+   
     
 
     const h1 = document.createElement("h1");
