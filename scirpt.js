@@ -29,7 +29,7 @@ function searchAnime(event) {
     // getAnime(tobefindtext);
    
     if(tobefindtext == ""){
-       alert("please!!! Enter the name to find anime");
+       alert("please!!! Enter the Name to find anime");
       }else{
         getAnime(tobefindtext);
       }
