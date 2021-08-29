@@ -5,15 +5,15 @@ function Topnav_And_Form() {
     //navbar 
     const nav = document.createElement("nav");
     const img = document.createElement("img");
-    img.setAttribute("src","https://aux.iconspalace.com/uploads/117428211619219278.png");
+    img.setAttribute("src","images/anime.png");
     img.style.position="absolute";
-    img.style.top="5px";
-    img.style.width="50px";
-    img.style.height="50px"
+    img.style.top="-28px";
+    img.style.width="130px";
+    img.style.height="130px"
     
 
     const h1 = document.createElement("h1");
-    h1.textContent = "Anime App";
+    // h1.textContent = "Anime App";
     h1.setAttribute("class", "title");
     nav.append(img,h1);
 
@@ -39,11 +39,11 @@ function searchAnime(event) {
     // getAnime(tobefindtext);
 
     if (tobefindtext == "") {
-        window.alert("Please!!! 😀 Enter the name to find Anime");
+        window.alert("Please!!! Enter the name to find Anime 😀");
     } else {
         getAnime(tobefindtext);
     }
-//     inputtext.value = "";
+
 }
 
 //-------------------------- setting  initial API to be loaded ---------------------------
@@ -58,9 +58,8 @@ async function getAnime(find) {
         displayAnime(initial_datas.results);
     }
     catch (err) {
-        document.querySelector(".form").append("Sorry for the inconvenience, TRY AGAIN LATER");
-        // document.body.append("Details Cannot be  Founded");
-        console.log(err);
+        document.querySelector(".form").append("Details Cannot be  Founded");
+//         console.log(err);
 
     }
 }
