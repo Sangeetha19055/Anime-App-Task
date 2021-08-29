@@ -43,6 +43,12 @@ nav .title {
     margin-left: 50px;
     font-family: 'Tangerine', cursive;
 }
+.logo{
+    position: absolute;
+    top:-28px;
+    width: 130px;
+    height:130px;
+}
 
 /* conatiner style */
 .conatiner {
@@ -182,6 +188,11 @@ button:hover {
         .conatiner {
             margin: 10px;
             padding: 10px;
+        }
+         .logo{
+            width: 100px;
+            height:100px;
+            top: -15px;
         }
     }
 
