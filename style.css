@@ -6,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* navbar  style*/
 nav {
     background: rgb(0, 153, 153);
     width: 100%;
@@ -13,6 +14,7 @@ nav {
     padding: 0px 20px;
 }
 
+/* navbar title style */
 nav .title {
     line-height: 70px;
     color: rgb(243, 243, 235);
@@ -20,6 +22,7 @@ nav .title {
     font-family: 'Tangerine', cursive;
 }
 
+/* conatiner style */
 .conatiner {
     position: relative;
     max-width: 1200px;
@@ -31,6 +34,7 @@ nav .title {
     box-shadow: 0px 0px 10px 2px rgba(45, 46, 46, 0.638);
 }
 
+/* conatiner form input style */
 .conatiner form input {
     padding: 10px 10px 10px 20px;
     width: 80%;
@@ -41,12 +45,12 @@ nav .title {
     border-radius: 10px;
 }
 
+/* conatiner form input hover style */
 .conatiner form input:hover {
     box-shadow: 0px 0px 10px 2px rgba(25, 180, 159, 0.638);
 }
 
-
-
+/* image-container style */
 .image-conatiner {
     display: flex;
     flex-wrap: wrap;
@@ -54,11 +58,8 @@ nav .title {
     gap: 30px;
     padding: 10px;
     margin-top: 60px;
-
-
-
 }
-
+/* image-container image style */
 .image-conatiner .image {
     height: 250px;
     width: 350px;
@@ -67,10 +68,8 @@ nav .title {
     position: relative;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-
-
 }
-
+/* image-container image  img style */
 .image-conatiner .image img {
     height: 100%;
     width: 100%;
@@ -78,11 +77,11 @@ nav .title {
     transition: .7s linear;
 }
 
+/* image-container image:hover img style */
 .image-conatiner .image:hover img {
     transform: scale(1.1);
-
 }
-
+/* card  style starts here */
 .card {
     background-color: rgb(254, 254, 254);
     width: 350px;
@@ -90,7 +89,7 @@ nav .title {
     box-shadow: 0 5px 15px rgb(0 0 0 / 65%);
 }
 .card .content h2 {
-    font-size: 17px;
+    font-size: 20px;
     color: rgb(121, 119, 119);
 }
 .card .content {
@@ -104,8 +103,9 @@ nav .title {
 {
     color:#009999;
 }
+/* card  style Ends here */
 
-
+/* button styles */
 button {
     padding: 10px 30px;
     border: none;
@@ -124,16 +124,15 @@ button:hover{
 .fas{
     color: rgb(217, 187, 13);
 }
+/*  media  style*/
 @media screen and (max-width:1200px) {
     .conatiner {
         margin: 30px;
     }
 }
-
 @media screen and (max-width:844px) {
     .conatiner form input {
         width: 100%;
-
     }
 
     button {
