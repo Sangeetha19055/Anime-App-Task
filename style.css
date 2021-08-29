@@ -120,7 +120,7 @@ nav .title {
 }
 .card .content p strong
 {
-    color:#009999;
+    color: #761ea7f7;
 }
 /* card  style Ends here */
 
@@ -157,6 +157,12 @@ button:hover{
     .conatiner form input {
         width: 100%;
 
+    }
+    @media screen and (max-width:500px) {
+        .conatiner {
+            margin: 4px;
+            padding:10px;
+        }
     }
 
     button {
