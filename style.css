@@ -9,7 +9,7 @@
 
 section {
     background-color: #939797;
-    background-image: url("https://static.zerochan.net/Kochou.Shinobu.full.2879484.jpg");
+    background-image: url("images/bg-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -141,7 +141,6 @@ button {
     padding: 10px 30px;
     border: none;
     font-size: 20px;
-    /* background: #009999; */
     background: #3e19adf2;
     color: #fff;
     cursor: pointer;
