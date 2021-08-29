@@ -1,5 +1,6 @@
 const apiurl = "https://api.jikan.moe/v3";
 
+/------------------------  Topnav anf from function  ----------------------
 function Topnav_And_Form() {
     //navbar 
     const nav = document.createElement("nav");
@@ -18,6 +19,8 @@ function Topnav_And_Form() {
     document.querySelector(".form").append(nav, formdiv);
 }
 Topnav_And_Form();
+
+//------------------------ searching Anime name in the search box ----------------------
 function searchAnime(event) {
     event.preventDefault();
     let inputtext = document.getElementById("search");
@@ -31,7 +34,7 @@ function searchAnime(event) {
       }
       
 }
-//setting  initial API to be loaded
+//-------------------------- setting  initial API to be loaded ---------------------------
 async function getAnime(find) {
     try {
         const data = await fetch(`${apiurl}/search/anime?q=${find}&page=1`,{
@@ -47,6 +50,7 @@ async function getAnime(find) {
     }
 }
 
+//-------------------------- displayAnime  ---------------------------
 function displayAnime(anime) {
     for (let i = 0; i <= anime.length; i++) {
         //anime card
