@@ -25,11 +25,11 @@ function searchAnime(event) {
     // getAnime(tobefindtext);
    
     if(tobefindtext == ""){
-        window.alert("Enter more than 3 characters");
+       alert("Enter the name to find anime");
       }else{
         getAnime(tobefindtext);
       }
-      inputtext.value = "";
+      
 }
 //setting  initial API to be loaded
 async function getAnime(find) {
@@ -68,6 +68,7 @@ function displayAnime(anime) {
 `;
         document.querySelector(".image-conatiner").append(image_box);
     }
+    inputtext.value = "";
 
 }
 
