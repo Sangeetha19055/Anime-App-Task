@@ -1,4 +1,5 @@
 const apiurl = "https://api.jikan.moe/v3";
+var inputtext = document.getElementById("search");
 
 /------------------------  Topnav anf from function  ----------------------
 function Topnav_And_Form() {
@@ -23,7 +24,7 @@ Topnav_And_Form();
 //------------------------ searching Anime name in the search box ----------------------
 function searchAnime(event) {
     event.preventDefault();
-    let inputtext = document.getElementById("search");
+    
     let tobefindtext = inputtext.value;
     // getAnime(tobefindtext);
    
