@@ -157,9 +157,9 @@ button {
 }
 
 button:hover {
-    background-color: #08a9a9d7;
-    border: 1px solid #009999;
-    color: black;
+    background-color: #0abd63a6;
+    border: 1px solid #32935d;
+    color: #f5f3f3;
 }
 
 .fas {
