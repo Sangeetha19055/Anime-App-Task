@@ -56,7 +56,7 @@ async function getAnime(find) {
     }
     catch (err) {
 //      document.querySelector(".form").append("Details Cannot be  Founded");
-        document.querySelector(".image-conatiner").append("Details Cannot be  Found");
+        document.querySelector(".image-conatiner").append("Details Cannot be  Found. 😒");
 //      console.log(err);
 
     }
