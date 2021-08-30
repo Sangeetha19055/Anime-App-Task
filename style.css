@@ -9,30 +9,26 @@
 body{
     background: aliceblue;
 }
-
-section {
-
-    background-image: url("images/animebg.jpeg");
+.form {
+    background-image: url(images/animebg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     background-position: center;
-    height: 300px;
+    height: 400px;
     margin: 0px 0px;
     position: relative;
-    padding: 30px 0px 0px 0px;
-
+    padding: 0px 0px 0px 0px;
+    background-blend-mode: color-burn;
 }
 
 /* navbar  style*/
-nav {
-
-     background-color: #00013bf0;
+nav { 
+    background: rgb(20 21 20 / 26%);
     box-shadow: 0 15px 35px rgb(0 0 0 / 5%);
     width: 100%;
     height: 70px;
     padding: 0px 20px;
-    
 }
 
 /* navbar title style */
@@ -43,6 +39,7 @@ nav .title {
     margin-left: 50px;
     font-family: 'Tangerine', cursive;
 }
+
 .logo{
     position: absolute;
     top:-28px;
@@ -177,22 +174,29 @@ button:hover {
         margin: 30px;
     }
 }
-
 @media screen and (max-width:844px) {
     .conatiner form input {
         width: 100%;
-
     }
-
     @media screen and (max-width:500px) {
         .conatiner {
-            margin: 10px;
+            margin: 90px 10px 10px 10px;
             padding: 10px;
         }
-         .logo{
+        .logo{
             width: 100px;
             height:100px;
             top: -15px;
+        }
+        .card {
+           
+            width: 300px;
+    
+        }
+        .image-conatiner .image {
+            height: 250px;
+            width: 300px;
+      
         }
     }
 
