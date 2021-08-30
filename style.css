@@ -53,7 +53,6 @@ nav .title {
     max-width: 1200px;
     margin: 60px auto;
     padding: 30px;
-    /* background-color: #fff; */
     background-color: #ffffff40;
     box-sizing: border-box;
     border-radius: 10px;
@@ -127,7 +126,7 @@ nav .title {
 
 .card .content h2 {
     font-size: 17px;
-    color: rgb(201 17 22);
+    color: rgb(236 101 136);
 }
 
 .card .content {
@@ -140,7 +139,7 @@ nav .title {
 }
 
 .card .content p strong {
-    color: #165dca;
+   color: #749cda;
 }
 /* card  style Ends here */
 
