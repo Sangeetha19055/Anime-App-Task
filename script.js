@@ -3,7 +3,6 @@ const apiurl = "https://api.jikan.moe/v3";
 //------------------------  Topnav anf from function  ----------------------
 function Topnav_And_Form() {
     //navbar 
-     //navbar 
     const nav = document.createElement("nav");
     const img = document.createElement("img");
     img.setAttribute("src","images/anime.png");
@@ -12,7 +11,6 @@ function Topnav_And_Form() {
     
 
     const h1 = document.createElement("h1");
-    // h1.textContent = "Anime App";
     h1.setAttribute("class", "title");
     nav.append(img,h1);
 
@@ -58,7 +56,7 @@ async function getAnime(find) {
     }
     catch (err) {
         document.querySelector(".form").append("Details Cannot be  Founded");
-//         console.log(err);
+//      console.log(err);
 
     }
 }
