@@ -107,7 +107,7 @@ nav .title {
 .image-conatiner .image img {
     height: 250px;
     width:190px;
-    object-fit: cover;
+    /*object-fit: cover; */
     transition: .7s linear;
     border-radius: 8px;
 }
