@@ -137,7 +137,7 @@ transform: scale(1.04);
 }
 
 .card .content {
-    padding: 20px 20px;
+    padding: 20px 20px 20px 50px;
     height: 200px;
 }
 
@@ -206,6 +206,7 @@ button:hover {
         }
            .card .content {
             height: 230px;
+            padding:10px 10px 10px 20px;
          }
     }
 
