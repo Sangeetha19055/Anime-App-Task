@@ -174,8 +174,8 @@ button:hover {
 
 /*  media  style*/
 @media screen and (max-width:1200px) {
-    .conatiner {
-        margin: 30px;
+     .conatiner {
+        margin: 90px 30px 30px 30px;
     }
 }
 @media screen and (max-width:844px) {
