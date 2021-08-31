@@ -195,7 +195,8 @@ button:hover {
         }
         .card {
            
-            width: 300px;
+             width: 300px;
+            padding-top: 20px;
     
         }
         .image-conatiner .image {
