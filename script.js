@@ -20,7 +20,7 @@ function Topnav_And_Form() {
     formdiv.setAttribute("class", "conatiner");
     formdiv.innerHTML = `
      <form>
-        <input type="text" name="search" id="search" placeholder="search">
+        <input type="text" name="search" id="search" placeholder="enter anime name">
         <button type="button" onclick="searchAnime(event)">search</button>
      </form>`;
     section.append(formdiv);
@@ -43,6 +43,10 @@ function searchAnime(event) {
 
 }
 
+      var inputtext = document.getElementById("search");
+      inputtext.addEventListener("keypress", function(e){
+      if(e.key === "Enter") searchAnime(event);
+  })
 //-------------------------- setting  initial API to be loaded ---------------------------
 async function getAnime(find) {
     try {
