@@ -173,6 +173,36 @@ button:hover {
     font-size: 18px;
 }
 
+/* loader styles */
+.main {
+  opacity: 0;
+  display: none;
+  transition: opacity 1s ease-in;
+}
+/*========= loader1 Starts======== */
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(255, 253, 253);
+}
+.loader img {
+  width: 320px;
+}
+@media (max-width: 425px) {
+  .loader img {
+    width: 280px;
+  }
+}
+/*========= loader1 Ends======== */
+/* loader styles Ends */
+
 /*  media  style*/
 @media screen and (max-width:1200px) {
      .conatiner {
